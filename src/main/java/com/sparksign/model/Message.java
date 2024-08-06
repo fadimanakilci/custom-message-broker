@@ -1,12 +1,11 @@
 /*
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
  *
- * Copyright © (C) 2023 Yerlem - All Rights Reserved
- *  Unauthorized copying of this file, via any medium is strictly prohibited
- *  Proprietary and confidential.
+ * Copyright © February 2024 Fadimana Kilci - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
  *
- *  Copyright © October 2023 Yerlem  @ https://yerlem.com
- *  Written by Fadimana Kilci  <fadimekilci07@gmail.com>, July 2024
+ * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
 package com.sparksign.model;
@@ -15,10 +14,10 @@ import java.io.Serializable;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Message implements Serializable {
-    private       AtomicInteger     id;
+    private final AtomicInteger     id;
     private final String            content;
     private final String            status;
-    private int                     retryCount;
+    private       int               retryCount;
     private final long              timestamp;
 
     public Message(String content) {
@@ -55,5 +54,14 @@ public class Message implements Serializable {
 
     public void incrementRetryCount() {
         this.retryCount += 1;
+    }
+
+    @Override
+    public String toString() {
+        return getId() + ", " +
+                getContent() + ", " +
+                getStatus() + ", " +
+                getRetryCount() + ", " +
+                getTimestamp();
     }
 }
