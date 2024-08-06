@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9482b7c6-7d97-4a10-ad6a-372872aaa274" name="Changes" comment="build: change package name" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;fadimanakilci&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="45262e7e-486a-40fe-a5c8-44c324d235b8" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/fadimanakilci/custom-message-broker.git&quot;,
+    &quot;accountId&quot;: &quot;45262e7e-486a-40fe-a5c8-44c324d235b8&quot;
+  }
+}</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2jX0juEjVKlrtG6zseZsKfibA4u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Server.executor": "Run",
+    "Application.com.sparksign.messagebroker.Main.executor": "Run",
+    "JUnit.AppTest.testApp.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/fadimanakilci/IdeaProjects/custom-message-broker/src/main/java/com/sparksign/handler",
+    "onboarding.tips.debug.path": "/Users/fadimanakilci/IdeaProjects/custom-message-broker/src/main/java/com/sparksign/Main.java",
+    "settings.editor.selected.configurable": "copyright.profiles"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/sparksign/handler" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/sparksign/broker" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sparksign" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sparksign" />
+      <recent name="com.sparksign.handler" />
+      <recent name="com.sparksign.message" />
+      <recent name="com.sparksign.connect" />
+      <recent name="com.sparksign.constant" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.sparksign.messagebroker.Main">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparksign.client.Client" />
+      <module name="custom-message-broker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparksign.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparksign.Main" />
+      <module name="custom-message-broker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparksign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparksign.server.Server" />
+      <module name="custom-message-broker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparksign.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.sparksign.messagebroker.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparksign.messagebroker.Main" />
+      <module name="custom-message-broker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparksign.messagebroker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="custom-message-broker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparksign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparksign" />
+      <option name="MAIN_CLASS_NAME" value="com.sparksign.AppTest" />
+      <option name="METHOD_NAME" value="testApp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.sparksign.messagebroker.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="JUnit.AppTest.testApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <myIsUseDefaultProxy>true</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9482b7c6-7d97-4a10-ad6a-372872aaa274" name="Changes" comment="" />
+      <created>1721518259612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721518259612</updated>
+    </task>
+    <task id="LOCAL-00001" summary="chore: add .gitignore file">
+      <option name="closed" value="true" />
+      <created>1721524414662</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721524414663</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test: add test utils">
+      <option name="closed" value="true" />
+      <created>1721525492328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721525492328</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test: add app test">
+      <option name="closed" value="true" />
+      <created>1721525536251</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721525536251</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add message model">
+      <option name="closed" value="true" />
+      <created>1721526257689</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721526257689</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add message queue">
+      <option name="closed" value="true" />
+      <created>1721526345974</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721526345974</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add message broker to manage message queues">
+      <option name="closed" value="true" />
+      <created>1721526467230</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721526467230</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add consumer to have multiple consumers subscribe to message queues">
+      <option name="closed" value="true" />
+      <created>1721526604236</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721526604236</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add message persistence to add file and database operations to ensure persistence by saving messages">
+      <option name="closed" value="true" />
+      <created>1721526932316</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721526932316</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add server side for test">
+      <option name="closed" value="true" />
+      <created>1721526985779</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721526985779</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: add client side for test">
+      <option name="closed" value="true" />
+      <created>1721527024250</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721527024250</updated>
+    </task>
+    <task id="LOCAL-00011" summary="docs: add the file containing the messages saved to the queue named default">
+      <option name="closed" value="true" />
+      <created>1721527180600</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721527180600</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refactor: remove Client.java">
+      <option name="closed" value="true" />
+      <created>1722931519975</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931519975</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactor: remove Server.java">
+      <option name="closed" value="true" />
+      <created>1722931535863</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931535863</updated>
+    </task>
+    <task id="LOCAL-00014" summary="chore: update copyright">
+      <option name="closed" value="true" />
+      <created>1722931623710</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931623710</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: add interface for servers connect">
+      <option name="closed" value="true" />
+      <created>1722931669662</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931669662</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: add interface for consumers">
+      <option name="closed" value="true" />
+      <created>1722931706157</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931706157</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add interface for handlers">
+      <option name="closed" value="true" />
+      <created>1722931723738</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931723738</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: add interface for message handlers">
+      <option name="closed" value="true" />
+      <created>1722931752843</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931752843</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: add handler service for massage">
+      <option name="closed" value="true" />
+      <created>1722931802409</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931802409</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: add message broker constants">
+      <option name="closed" value="true" />
+      <created>1722931834340</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931834340</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: add consumer handler for consumers">
+      <option name="closed" value="true" />
+      <created>1722931895986</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931895986</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: add client handler for client control">
+      <option name="closed" value="true" />
+      <created>1722931932756</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931932756</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: add server handler for server control">
+      <option name="closed" value="true" />
+      <created>1722931951273</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931951273</updated>
+    </task>
+    <task id="LOCAL-00024" summary="style: refactor code style to make it cleaner">
+      <option name="closed" value="true" />
+      <created>1722932118092</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1722932118092</updated>
+    </task>
+    <task id="LOCAL-00025" summary="style: refactor code style to make it cleaner">
+      <option name="closed" value="true" />
+      <created>1722932135755</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1722932135755</updated>
+    </task>
+    <task id="LOCAL-00026" summary="refactor: rename consumer service class">
+      <option name="closed" value="true" />
+      <created>1722932191530</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1722932191530</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: add custom toString method for message">
+      <option name="closed" value="true" />
+      <created>1722932225688</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1722932225688</updated>
+    </task>
+    <task id="LOCAL-00028" summary="chore: update copyright">
+      <option name="closed" value="true" />
+      <created>1722932254328</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1722932254328</updated>
+    </task>
+    <task id="LOCAL-00029" summary="build: change package name">
+      <option name="closed" value="true" />
+      <created>1722937885696</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1722937885697</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="test: add app test" />
+    <MESSAGE value="feat: add message model" />
+    <MESSAGE value="feat: add message queue" />
+    <MESSAGE value="feat: add message broker to manage message queues" />
+    <MESSAGE value="feat: add consumer to have multiple consumers subscribe to message queues" />
+    <MESSAGE value="feat: add message persistence to add file and database operations to ensure persistence by saving messages" />
+    <MESSAGE value="feat: add server side for test" />
+    <MESSAGE value="feat: add client side for test" />
+    <MESSAGE value="docs: add the file containing the messages saved to the queue named default" />
+    <MESSAGE value="refactor: remove Client.java" />
+    <MESSAGE value="refactor: remove Server.java" />
+    <MESSAGE value="feat: add interface for servers connect" />
+    <MESSAGE value="feat: add interface for consumers" />
+    <MESSAGE value="feat: add interface for handlers" />
+    <MESSAGE value="feat: add interface for message handlers" />
+    <MESSAGE value="feat: add handler service for massage" />
+    <MESSAGE value="feat: add message broker constants" />
+    <MESSAGE value="feat: add consumer handler for consumers" />
+    <MESSAGE value="feat: add client handler for client control" />
+    <MESSAGE value="feat: add server handler for server control" />
+    <MESSAGE value="style: refactor code style to make it cleaner" />
+    <MESSAGE value="refactor: rename consumer service class" />
+    <MESSAGE value="feat: add custom toString method for message" />
+    <MESSAGE value="chore: update copyright" />
+    <MESSAGE value="build: change package name" />
+    <option name="LAST_COMMIT_MESSAGE" value="build: change package name" />
+  </component>
+</project>

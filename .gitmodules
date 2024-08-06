@@ -1,0 +1,3 @@
+[submodule "custom-message-broker-client"]
+	path = custom-message-broker-client
+	url = https://github.com/fadimanakilci/custom-message-broker-client.git
