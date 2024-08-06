@@ -8,7 +8,7 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.util;
+package com.sparksign.messagebroker.util;
 
 public class TestUtils {
     long beforeUsedMem;

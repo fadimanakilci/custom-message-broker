@@ -8,14 +8,14 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign;
+package com.sparksign.messagebroker;
 
-import com.sparksign.broker.MessageBroker;
-import com.sparksign.connect.Connect;
-import com.sparksign.constant.MessageBrokerConstants;
-import com.sparksign.handler.ClientHandler;
-import com.sparksign.handler.ConsumerHandler;
-import com.sparksign.handler.ServerHandler;
+import com.sparksign.messagebroker.broker.MessageBroker;
+import com.sparksign.messagebroker.connect.Connect;
+import com.sparksign.messagebroker.constant.MessageBrokerConstants;
+import com.sparksign.messagebroker.handler.ClientHandler;
+import com.sparksign.messagebroker.handler.ConsumerHandler;
+import com.sparksign.messagebroker.handler.ServerHandler;
 
 public class Main {
     public static void main(String[] args) {

@@ -8,9 +8,9 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.broker;
+package com.sparksign.messagebroker.broker;
 
-import com.sparksign.model.Message;
+import com.sparksign.messagebroker.model.Message;
 
 import java.io.*;
 import java.nio.file.Files;

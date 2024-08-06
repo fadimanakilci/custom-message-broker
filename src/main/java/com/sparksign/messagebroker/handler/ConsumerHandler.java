@@ -8,10 +8,10 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.handler;
-import com.sparksign.broker.MessageBroker;
-import com.sparksign.constant.MessageBrokerConstants;
-import com.sparksign.consumer.ConsumerService;
+package com.sparksign.messagebroker.handler;
+import com.sparksign.messagebroker.broker.MessageBroker;
+import com.sparksign.messagebroker.constant.MessageBrokerConstants;
+import com.sparksign.messagebroker.consumer.ConsumerService;
 
 import java.util.ArrayList;
 import java.util.List;

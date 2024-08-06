@@ -8,15 +8,9 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.message;
+package com.sparksign.messagebroker.consumer;
 
-import com.sparksign.handler.Handler;
-import com.sparksign.model.Message;
-
-import java.io.ByteArrayInputStream;
-
-public interface MsgHandler extends Handler {
-    void parseMessage(ByteArrayInputStream inputStream);
-
-    void dispatchMessage(Message message);
+public interface Consumer extends Runnable {
+    @Override
+    void run();
 }

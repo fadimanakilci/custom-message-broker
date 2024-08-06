@@ -8,9 +8,8 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.consumer;
+package com.sparksign.messagebroker.persistence;
 
-public interface Consumer extends Runnable {
-    @Override
-    void run();
+public class MessagePersistence {
+    // TODO: File and database operations
 }

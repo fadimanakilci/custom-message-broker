@@ -8,7 +8,7 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.connect;
+package com.sparksign.messagebroker.connect;
 
 public interface Connect {
     void connect();

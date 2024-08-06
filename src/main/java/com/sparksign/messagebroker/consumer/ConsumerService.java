@@ -8,18 +8,18 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.consumer;
+package com.sparksign.messagebroker.consumer;
 
-import com.sparksign.broker.MessageBroker;
-import com.sparksign.message.MsgHandlerService;
-import com.sparksign.model.Message;
+import com.sparksign.messagebroker.broker.MessageBroker;
+import com.sparksign.messagebroker.message.MsgHandlerService;
+import com.sparksign.messagebroker.model.Message;
 
 import java.util.concurrent.TimeUnit;
 
 public class ConsumerService implements Consumer {
     private final MsgHandlerService service     = new MsgHandlerService();
     private final String            name;
-    private final MessageBroker     broker;
+    private final MessageBroker broker;
     private final String            queueName;
     private final int               retryLimit;
     private final long              retryDelay;

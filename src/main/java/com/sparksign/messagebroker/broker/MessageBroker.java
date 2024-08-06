@@ -8,9 +8,9 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.broker;
+package com.sparksign.messagebroker.broker;
 
-import com.sparksign.model.Message;
+import com.sparksign.messagebroker.model.Message;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -33,13 +33,13 @@ public class MessageBroker {
 
     public void createQueue(String name) {
         if (!queues.containsKey(name)) {
-            queues.put(name, new MessageQueue(name));
+            queues.put(name, new com.sparksign.messagebroker.broker.MessageQueue(name));
             System.out.println("CREATE name = " + name + " - queue = " + queues.size());
         }
     }
 
     public void publish(String name, Message message) {
-        MessageQueue queue = queues.get(name);
+        com.sparksign.messagebroker.broker.MessageQueue queue = queues.get(name);
         if (queue != null)
             queue.publish(message);
         else
@@ -47,7 +47,7 @@ public class MessageBroker {
     }
 
     public Message consume(String name) {
-        MessageQueue queue = queues.get(name);
+        com.sparksign.messagebroker.broker.MessageQueue queue = queues.get(name);
         if (queue != null)
             return queue.consume();
         else {
@@ -57,7 +57,7 @@ public class MessageBroker {
     }
 
     public boolean isEmpty(String name) {
-        MessageQueue queue = queues.get(name);
+        com.sparksign.messagebroker.broker.MessageQueue queue = queues.get(name);
 
         if (queue != null) {
             return queue.isEmpty();

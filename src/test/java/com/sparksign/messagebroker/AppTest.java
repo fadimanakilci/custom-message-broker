@@ -8,9 +8,9 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign;
+package com.sparksign.messagebroker;
 
-import com.sparksign.util.TestUtils;
+import com.sparksign.messagebroker.util.TestUtils;
 import org.junit.*;
 
 public class AppTest {

@@ -8,12 +8,12 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.handler;
+package com.sparksign.messagebroker.handler;
 
-import com.sparksign.broker.MessageBroker;
-import com.sparksign.connect.Connect;
-import com.sparksign.constant.MessageBrokerConstants;
-import com.sparksign.model.Message;
+import com.sparksign.messagebroker.broker.MessageBroker;
+import com.sparksign.messagebroker.connect.Connect;
+import com.sparksign.messagebroker.constant.MessageBrokerConstants;
+import com.sparksign.messagebroker.model.Message;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -29,7 +29,7 @@ public class ClientHandler implements Handler, Connect {
     private         Socket              socket;
     private         ObjectInputStream   inputStream;
     private         ObjectOutputStream  outputStream;
-    private final   MessageBroker       broker;
+    private final MessageBroker broker;
     private final   ExecutorService     service;
     private final   ServerSocket        serverSocket;
     private static  ClientHandler       instance        = null;

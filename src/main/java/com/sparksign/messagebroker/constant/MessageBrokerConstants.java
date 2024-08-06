@@ -9,7 +9,7 @@
  *  Written by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.constant;
+package com.sparksign.messagebroker.constant;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

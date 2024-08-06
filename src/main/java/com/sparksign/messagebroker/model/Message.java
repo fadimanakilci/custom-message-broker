@@ -8,7 +8,7 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.model;
+package com.sparksign.messagebroker.model;
 
 import java.io.Serializable;
 import java.util.concurrent.atomic.AtomicInteger;

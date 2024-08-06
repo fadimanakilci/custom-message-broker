@@ -8,8 +8,10 @@
  * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.persistence;
+package com.sparksign.messagebroker.handler;
 
-public class MessagePersistence {
-    // TODO: File and database operations
+// A Handler allows process message and runnable objects associated with a thread's MessageQueue
+
+public interface Handler {
+    void handle(Object object);
 }
