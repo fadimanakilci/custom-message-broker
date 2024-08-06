@@ -1,12 +1,11 @@
 /*
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
  *
- * Copyright © (C) 2023 Yerlem - All Rights Reserved
- *  Unauthorized copying of this file, via any medium is strictly prohibited
- *  Proprietary and confidential.
+ * Copyright © February 2024 Fadimana Kilci - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
  *
- *  Copyright © October 2023 Yerlem  @ https://yerlem.com
- *  Written by Fadimana Kilci  <fadimekilci07@gmail.com>, July 2024
+ * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
 package com.sparksign.broker;
@@ -35,12 +34,11 @@ public class MessageBroker {
     public void createQueue(String name) {
         if (!queues.containsKey(name)) {
             queues.put(name, new MessageQueue(name));
-//            System.out.println("CREATE name = " + name + " - queue = " + queues.size());
+            System.out.println("CREATE name = " + name + " - queue = " + queues.size());
         }
     }
 
     public void publish(String name, Message message) {
-//        System.out.println("name = " + name + ", message = " + message);
         MessageQueue queue = queues.get(name);
         if (queue != null)
             queue.publish(message);
@@ -60,7 +58,6 @@ public class MessageBroker {
 
     public boolean isEmpty(String name) {
         MessageQueue queue = queues.get(name);
-//        System.out.println("name = " + name + " - queue = " + queue.isEmpty());
 
         if (queue != null) {
             return queue.isEmpty();
