@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9482b7c6-7d97-4a10-ad6a-372872aaa274" name="Changes" comment="build: change package name" />
+    <list default="true" id="9482b7c6-7d97-4a10-ad6a-372872aaa274" name="Changes" comment="feat: add client submodule" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -410,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722937885697</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="feat: add client submodule">
+      <option name="closed" value="true" />
+      <created>1722938681403</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1722938681403</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,7 +434,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="test: add app test" />
     <MESSAGE value="feat: add message model" />
     <MESSAGE value="feat: add message queue" />
     <MESSAGE value="feat: add message broker to manage message queues" />
@@ -451,6 +458,7 @@
     <MESSAGE value="feat: add custom toString method for message" />
     <MESSAGE value="chore: update copyright" />
     <MESSAGE value="build: change package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: change package name" />
+    <MESSAGE value="feat: add client submodule" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add client submodule" />
   </component>
 </project>
