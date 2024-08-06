@@ -1,28 +1,30 @@
 /*
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
  *
- * Copyright © (C) 2023 Yerlem - All Rights Reserved
- *  Unauthorized copying of this file, via any medium is strictly prohibited
- *  Proprietary and confidential.
+ * Copyright © February 2024 Fadimana Kilci - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
  *
- *  Copyright © October 2023 Yerlem  @ https://yerlem.com
- *  Written by Fadimana Kilci  <fadimekilci07@gmail.com>, July 2024
+ * Created by Fadimana Kilci  <fadimekilci07@gmail.com>, August 2024
  */
 
-package com.sparksign.broker;
+package com.sparksign.consumer;
 
+import com.sparksign.broker.MessageBroker;
+import com.sparksign.message.MsgHandlerService;
 import com.sparksign.model.Message;
 
 import java.util.concurrent.TimeUnit;
 
-public class Consumer implements Runnable {
+public class ConsumerService implements Consumer {
+    private final MsgHandlerService service     = new MsgHandlerService();
     private final String            name;
     private final MessageBroker     broker;
     private final String            queueName;
     private final int               retryLimit;
     private final long              retryDelay;
 
-    public Consumer(
+    public ConsumerService(
             String                  name,
             MessageBroker           broker,
             String                  queueName,
@@ -42,8 +44,9 @@ public class Consumer implements Runnable {
             Message message = broker.consume(queueName);
             if (message != null) {
                 try {
-                    // TODO: Gerekli işlem yönlendirmelerin burada olacak!
-                    System.out.println(name + " processing message: " + message.getContent());
+                    System.out.println(name + " processing message: " + message.getContent() + "\n");
+
+                    service.handle(message);
 
                     TimeUnit.SECONDS.sleep(1);
                 } catch (InterruptedException e) {
