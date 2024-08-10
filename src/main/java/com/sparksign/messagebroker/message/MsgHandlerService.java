@@ -20,7 +20,7 @@ public final class MsgHandlerService implements MsgHandler {
 
     @Override
     public void handle(Object message) {
-        String _message = ((Message) message).getContent();
+        String _message                     = ((Message) message).getContent();
         byte[] bytes                        = _message.getBytes(StandardCharsets.UTF_8);
         ByteArrayInputStream inputStream    = new ByteArrayInputStream(bytes);
 
