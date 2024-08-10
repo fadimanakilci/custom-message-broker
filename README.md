@@ -7,6 +7,7 @@ of messages or need fine-tuned control over message processing,
 this broker has you covered. With advanced features like message
 persistence, multi-queue management, and consumer groups, it’s the 
 perfect fit for any robust messaging system.
+<br><br>
 
 ## ✨ Key Features
 
@@ -15,7 +16,8 @@ perfect fit for any robust messaging system.
 - **⏳ Message Retries & Timeouts**: Set custom rules for message retries and timeouts to keep your system resilient.
 - **👥 Consumer Groups**: Distribute message processing across different consumer groups for load balancing.
 - **⚡ Optimized Performance**: Designed for efficiency, only activates when needed, avoiding unnecessary resource usage.
-
+  <br><br>
+- 
 ## 🚧 Getting Started
 
 Ready to dive in? Follow these simple steps to get your Custom 
@@ -54,6 +56,7 @@ gradle build
 java -jar target/custom-message-broker.jar
 ```
 And you’re good to go! 🚀
+<br><br>
 
 ## 🛠️ How to Use
 
@@ -80,6 +83,7 @@ Here's how the message broker facilitates two-way communication:
 3. **Bidirectional Messaging:** Both the Server and Client can send and receive messages, allowing for dynamic two-way communication.
 
 ✨ These modules illustrate the flexibility and efficiency of your custom message broker. For a deeper dive and specific code examples, make sure to explore the `README.md` files in both the `client` and `server` directories.
+<br><br>
 
 ## 💡 Why Choose Custom Message Broker?
 
@@ -90,6 +94,7 @@ This isn't just any message broker. With Custom Message Broker, you get:
 - **Efficiency**: Designed to be lightweight and responsive.
 
 Whether you're building a small application or a large-scale enterprise system, this broker adapts to your requirements.
+<br><br>
 
 ## 🤝 Contributing
 
@@ -99,12 +104,12 @@ We’d love your help in making Custom Message Broker even better! Here’s how 
 3. Commit your changes: git commit -m 'feat: add some AmazingFeature'. 
 4. Push to your branch: git push origin feature/AmazingFeature. 
 5. Open a Pull Request and let’s make this broker even more awesome together!
+<br><br>
 
 ## 📄 License
 
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
+<br><br>
 
-<br>
-
-### 🌟 Happy Messaging!
+🌟 Happy Messaging!
 
