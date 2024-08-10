@@ -116,7 +116,7 @@ public class ClientHandler implements Handler, Connect {
                         outputStream.writeObject(message);
                         outputStream.flush();
 
-                        System.out.println("Sent to server: " + message.getContent());
+                        System.out.println("Sent to server: " + message.getId() + message.getContent());
 
                         TimeUnit.SECONDS.sleep(1);
                     }
