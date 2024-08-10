@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9482b7c6-7d97-4a10-ad6a-372872aaa274" name="Changes" comment="feat: add client submodule" />
+    <list default="true" id="9482b7c6-7d97-4a10-ad6a-372872aaa274" name="Changes" comment="feat: update server submodule to latest commits">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparksign/messagebroker/constant/MessageBrokerConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparksign/messagebroker/constant/MessageBrokerConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparksign/messagebroker/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparksign/messagebroker/model/Message.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,29 +52,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Client.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Server.executor": "Run",
-    "Application.com.sparksign.messagebroker.Main.executor": "Run",
-    "JUnit.AppTest.testApp.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/fadimanakilci/IdeaProjects/custom-message-broker/src/main/java/com/sparksign/handler",
-    "onboarding.tips.debug.path": "/Users/fadimanakilci/IdeaProjects/custom-message-broker/src/main/java/com/sparksign/Main.java",
-    "settings.editor.selected.configurable": "copyright.profiles"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.sparksign.messagebroker.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.testApp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/fadimanakilci/IdeaProjects/custom-message-broker/src/main/java/com/sparksign/handler&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/fadimanakilci/IdeaProjects/custom-message-broker/src/main/java/com/sparksign/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright.profiles&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/sparksign/handler" />
@@ -418,7 +423,79 @@
       <option name="project" value="LOCAL" />
       <updated>1722938681403</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="feat: add server submodule">
+      <option name="closed" value="true" />
+      <created>1722938887477</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1722938887477</updated>
+    </task>
+    <task id="LOCAL-00032" summary="docs: add LICENSE">
+      <option name="closed" value="true" />
+      <created>1723286385011</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1723286385011</updated>
+    </task>
+    <task id="LOCAL-00033" summary="docs: add README.md">
+      <option name="closed" value="true" />
+      <created>1723286440352</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1723286440352</updated>
+    </task>
+    <task id="LOCAL-00034" summary="docs: update README.md">
+      <option name="closed" value="true" />
+      <created>1723288207984</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1723288207984</updated>
+    </task>
+    <task id="LOCAL-00035" summary="docs: update README.md">
+      <option name="closed" value="true" />
+      <created>1723288514249</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1723288514249</updated>
+    </task>
+    <task id="LOCAL-00036" summary="docs: update README.md">
+      <option name="closed" value="true" />
+      <created>1723288560116</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1723288560116</updated>
+    </task>
+    <task id="LOCAL-00037" summary="docs: update README.md">
+      <option name="closed" value="true" />
+      <created>1723291969230</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1723291969230</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat: update client submodule to latest commits">
+      <option name="closed" value="true" />
+      <created>1723293302193</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1723293302193</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat: update server submodule to latest commits">
+      <option name="closed" value="true" />
+      <created>1723293331727</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1723293331727</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -434,13 +511,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="feat: add message model" />
-    <MESSAGE value="feat: add message queue" />
-    <MESSAGE value="feat: add message broker to manage message queues" />
-    <MESSAGE value="feat: add consumer to have multiple consumers subscribe to message queues" />
-    <MESSAGE value="feat: add message persistence to add file and database operations to ensure persistence by saving messages" />
-    <MESSAGE value="feat: add server side for test" />
-    <MESSAGE value="feat: add client side for test" />
     <MESSAGE value="docs: add the file containing the messages saved to the queue named default" />
     <MESSAGE value="refactor: remove Client.java" />
     <MESSAGE value="refactor: remove Server.java" />
@@ -459,6 +529,13 @@
     <MESSAGE value="chore: update copyright" />
     <MESSAGE value="build: change package name" />
     <MESSAGE value="feat: add client submodule" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add client submodule" />
+    <MESSAGE value="feat: add server submodule" />
+    <MESSAGE value="docs: add LICENSE" />
+    <MESSAGE value="docs: update" />
+    <MESSAGE value="docs: add README.md" />
+    <MESSAGE value="docs: update README.md" />
+    <MESSAGE value="feat: update client submodule to latest commits" />
+    <MESSAGE value="feat: update server submodule to latest commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update server submodule to latest commits" />
   </component>
 </project>
