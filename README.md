@@ -35,7 +35,7 @@ Make sure you have the following installed:
 Clone the repository and build the project:
 
 ```bash
-git clone https://github.com/fadimanakilci/custom-message-broker.git
+git clone https://github.com/fadimanakilci/custom-message-broker.git --recurse-submodules
 cd custom-message-broker
 ```
 If you're using Maven:
