@@ -25,5 +25,6 @@ public final class MessageBrokerConstants {
     public static final String        clientConsumerName        = consumerName + "Client";
     public static final String        serverConsumerName        = consumerName + "Server";
 
+    public static final AtomicInteger lastMessageId             = new AtomicInteger(0);
     public static final AtomicInteger retryLimit                = new AtomicInteger(3);
 }
