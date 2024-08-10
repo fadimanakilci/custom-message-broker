@@ -16,8 +16,8 @@ perfect fit for any robust messaging system.
 - **⏳ Message Retries & Timeouts**: Set custom rules for message retries and timeouts to keep your system resilient.
 - **👥 Consumer Groups**: Distribute message processing across different consumer groups for load balancing.
 - **⚡ Optimized Performance**: Designed for efficiency, only activates when needed, avoiding unnecessary resource usage.
-  <br><br>
-- 
+<br><br>
+
 ## 🚧 Getting Started
 
 Ready to dive in? Follow these simple steps to get your Custom 
