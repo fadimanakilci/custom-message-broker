@@ -116,7 +116,7 @@ public class ServerHandler implements com.sparksign.messagebroker.handler.Handle
                         outputStream.writeObject(message);
                         outputStream.flush();
 
-                        System.out.println("Sent to server: " + message.getContent());
+                        System.out.println("Sent to server: " + message.getId() + message.getContent());
 
                         TimeUnit.SECONDS.sleep(1);
                     }
