@@ -10,18 +10,20 @@
 
 package com.sparksign.messagebroker.model;
 
+import com.sparksign.messagebroker.constant.MessageBrokerConstants;
+
 import java.io.Serializable;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Message implements Serializable {
-    private final AtomicInteger     id;
+    private final int               id;
     private final String            content;
     private final String            status;
     private       int               retryCount;
     private final long              timestamp;
 
     public Message(String content) {
-        this.id                     = new AtomicInteger(0);
+        this.id                     = setId();
         this.content                = content;
         this.status                 = "pending";
         this.retryCount             = 0;
@@ -29,7 +31,7 @@ public class Message implements Serializable {
     }
 
     public int getId() {
-        return id.get();
+        return id;
     }
 
     public String getContent() {
@@ -48,8 +50,8 @@ public class Message implements Serializable {
         return timestamp;
     }
 
-    public void incrementId() {
-        id.incrementAndGet();
+    private static int setId() {
+        return MessageBrokerConstants.lastMessageId.incrementAndGet();
     }
 
     public void incrementRetryCount() {
